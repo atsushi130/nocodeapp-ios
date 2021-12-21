@@ -11,9 +11,9 @@ import Combine
 
 final class DataSourceRepository {
 
-    private let client = APIClient(session: Session.create(authProvider: NoAuthorization.provider)!)
+    private let client = APIClient.default
 
-    func fetchJson<T: Decodable>(url: URL, type: T.Type) -> AnyPublisher<T?, Never> {
+    func fetchDataSource<T: Decodable>(url: URL, type: T.Type) -> AnyPublisher<T?, Never> {
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringCacheData)
         return self.client.request(request)
             .decode(T.self)

@@ -20,6 +20,19 @@
 		0D2F6077276340970099C630 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F6076276340960099C630 /* Layout.swift */; };
 		0D2F607F276348280099C630 /* LayoutDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F607E276348280099C630 /* LayoutDataSource.swift */; };
 		0D2F608827634D1B0099C630 /* DataSourceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F608727634D1B0099C630 /* DataSourceRepository.swift */; };
+		0D2F609127635ACB0099C630 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F609027635ACB0099C630 /* LayoutViewController.swift */; };
+		0D2F609B27635B1F0099C630 /* LayoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F609A27635B1F0099C630 /* LayoutViewModel.swift */; };
+		0D2F60A427635C720099C630 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F60A327635C720099C630 /* Section.swift */; };
+		0D2F60AF27635D6E0099C630 /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F60AE27635D6E0099C630 /* TitleSection.swift */; };
+		0D2F60B427635D7B0099C630 /* LayoutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F60B327635D7B0099C630 /* LayoutSection.swift */; };
+		0D2F60B927635D830099C630 /* GridSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F60B827635D830099C630 /* GridSection.swift */; };
+		0D2F60BE27635D8C0099C630 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F60BD27635D8C0099C630 /* ScrollSection.swift */; };
+		0D2F60C327635DD60099C630 /* SectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F60C227635DD60099C630 /* SectionBuilder.swift */; };
+		0D2F60D82766EF200099C630 /* Extension in Frameworks */ = {isa = PBXBuildFile; productRef = 0D2F60D72766EF200099C630 /* Extension */; };
+		0DB8597B2766F393003ABF88 /* LayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8597A2766F393003ABF88 /* LayoutCell.swift */; };
+		0DB859832767017D003ABF88 /* ImageTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB859822767017D003ABF88 /* ImageTextCell.swift */; };
+		0DB8598927670204003ABF88 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8598827670204003ABF88 /* ImageView.swift */; };
+		0DB859912767045E003ABF88 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB859902767045E003ABF88 /* TitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +74,18 @@
 		0D2F6076276340960099C630 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		0D2F607E276348280099C630 /* LayoutDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDataSource.swift; sourceTree = "<group>"; };
 		0D2F608727634D1B0099C630 /* DataSourceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceRepository.swift; sourceTree = "<group>"; };
+		0D2F609027635ACB0099C630 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
+		0D2F609A27635B1F0099C630 /* LayoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewModel.swift; sourceTree = "<group>"; };
+		0D2F60A327635C720099C630 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		0D2F60AE27635D6E0099C630 /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
+		0D2F60B327635D7B0099C630 /* LayoutSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSection.swift; sourceTree = "<group>"; };
+		0D2F60B827635D830099C630 /* GridSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSection.swift; sourceTree = "<group>"; };
+		0D2F60BD27635D8C0099C630 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		0D2F60C227635DD60099C630 /* SectionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBuilder.swift; sourceTree = "<group>"; };
+		0DB8597A2766F393003ABF88 /* LayoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutCell.swift; sourceTree = "<group>"; };
+		0DB859822767017D003ABF88 /* ImageTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextCell.swift; sourceTree = "<group>"; };
+		0DB8598827670204003ABF88 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		0DB859902767045E003ABF88 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2F60D82766EF200099C630 /* Extension in Frameworks */,
 				0D2F6071276319970099C630 /* NotionClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +142,9 @@
 		0D2F60242763071A0099C630 /* nocodeapp-ios */ = {
 			isa = PBXGroup;
 			children = (
+				0D2F60A227635C580099C630 /* Section */,
+				0D2F609827635B0B0099C630 /* ViewModel */,
+				0D2F608F27635ABE0099C630 /* View */,
 				0D2F6075276340760099C630 /* Model */,
 				0D2F60662763196D0099C630 /* Repository */,
 				0D2F60252763071A0099C630 /* AppDelegate.swift */,
@@ -172,6 +201,55 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		0D2F608F27635ABE0099C630 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DB85987276701F9003ABF88 /* Component */,
+				0DB859792766F387003ABF88 /* Cell */,
+				0D2F609027635ACB0099C630 /* LayoutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D2F609827635B0B0099C630 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F609A27635B1F0099C630 /* LayoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0D2F60A227635C580099C630 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F60A327635C720099C630 /* Section.swift */,
+				0D2F60AE27635D6E0099C630 /* TitleSection.swift */,
+				0D2F60B327635D7B0099C630 /* LayoutSection.swift */,
+				0D2F60B827635D830099C630 /* GridSection.swift */,
+				0D2F60BD27635D8C0099C630 /* ScrollSection.swift */,
+				0D2F60C227635DD60099C630 /* SectionBuilder.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		0DB859792766F387003ABF88 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0DB8597A2766F393003ABF88 /* LayoutCell.swift */,
+				0DB859822767017D003ABF88 /* ImageTextCell.swift */,
+				0DB859902767045E003ABF88 /* TitleCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0DB85987276701F9003ABF88 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0DB8598827670204003ABF88 /* ImageView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +268,7 @@
 			name = "nocodeapp-ios";
 			packageProductDependencies = (
 				0D2F6070276319970099C630 /* NotionClient */,
+				0D2F60D72766EF200099C630 /* Extension */,
 			);
 			productName = "nocodeapp-ios";
 			productReference = 0D2F60222763071A0099C630 /* nocodeapp-ios.app */;
@@ -305,13 +384,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2F609B27635B1F0099C630 /* LayoutViewModel.swift in Sources */,
 				0D2F607F276348280099C630 /* LayoutDataSource.swift in Sources */,
 				0D2F608827634D1B0099C630 /* DataSourceRepository.swift in Sources */,
+				0D2F609127635ACB0099C630 /* LayoutViewController.swift in Sources */,
+				0DB859832767017D003ABF88 /* ImageTextCell.swift in Sources */,
 				0D2F6068276319800099C630 /* NotionRepository.swift in Sources */,
+				0DB8598927670204003ABF88 /* ImageView.swift in Sources */,
+				0D2F60B427635D7B0099C630 /* LayoutSection.swift in Sources */,
+				0D2F60BE27635D8C0099C630 /* ScrollSection.swift in Sources */,
+				0D2F60A427635C720099C630 /* Section.swift in Sources */,
+				0D2F60AF27635D6E0099C630 /* TitleSection.swift in Sources */,
+				0DB8597B2766F393003ABF88 /* LayoutCell.swift in Sources */,
+				0D2F60C327635DD60099C630 /* SectionBuilder.swift in Sources */,
 				0D2F602A2763071A0099C630 /* ViewController.swift in Sources */,
 				0D2F6077276340970099C630 /* Layout.swift in Sources */,
 				0D2F60262763071A0099C630 /* AppDelegate.swift in Sources */,
+				0D2F60B927635D830099C630 /* GridSection.swift in Sources */,
 				0D2F60282763071A0099C630 /* SceneDelegate.swift in Sources */,
+				0DB859912767045E003ABF88 /* TitleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +740,10 @@
 		0D2F6070276319970099C630 /* NotionClient */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NotionClient;
+		};
+		0D2F60D72766EF200099C630 /* Extension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extension;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

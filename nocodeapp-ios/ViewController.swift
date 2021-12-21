@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             }
             .flatMap { layout -> AnyPublisher<[LayoutDataSource]?, Never> in
                 if let layout = layout, let url = layout.dataURL?.url {
-                    return self.dataSourceRepository.fetchJson(url: url, type: [LayoutDataSource].self)
+                    return self.dataSourceRepository.fetchDataSource(url: url, type: [LayoutDataSource].self)
                 } else {
                     return Just(nil).eraseToAnyPublisher()
                 }

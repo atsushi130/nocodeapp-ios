@@ -14,15 +14,18 @@ protocol ComponentSection: AnyObject {
     var componentSection: ComponentSection { get }
     var layoutSection: NSCollectionLayoutSection { get }
     var useCellTypes: [UICollectionViewCell.Type] { get }
-    func dequeueReuseableCell(_ collectionView: UICollectionView, at indexPath: IndexPath) -> UICollectionViewCell?
-}
-
-protocol DataSourceComponentSection: ComponentSection {
-    func fetchDataSource() -> AnyPublisher<[LayoutDataSource], Never>
+    func dequeueReuseableCell(_ collectionView: UICollectionView, at indexPath: IndexPath) -> LayoutCell?
+    func fetchDataSources() -> AnyPublisher<[LayoutDataSource], Never>
 }
 
 enum Section: Hashable, Equatable {
     case title(id: String)
     case grid(id: String)
     case scroll(id: String)
+}
+
+extension Layout {
+    var section: ComponentSection? {
+        return SectionBuilder().build(layout: self)
+    }
 }

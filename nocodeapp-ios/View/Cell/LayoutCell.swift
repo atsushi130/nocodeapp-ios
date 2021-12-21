@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
+protocol LayoutCell: UICollectionViewCell {
+    func apply(dataSource: LayoutDataSource)
+}

@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct LayoutDataSource: Decodable {
-    let imageURL: URL
+struct LayoutDataSource: Decodable, Hashable, Equatable {
+    let uniqueId: String = UUID().uuidString
+    let imageURL: URL?
     let title: String
 
     private enum CodingKeys: String, CodingKey {
