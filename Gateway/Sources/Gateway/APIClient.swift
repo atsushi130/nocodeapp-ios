@@ -4,6 +4,7 @@ import Combine
 
 public final class APIClient: APIClientProtocol {
 
+    public static let `default` = APIClient(session: Session.create(authProvider: NoAuthorization.provider)!)
     private let session: AuthorizedSession
 
     public init(session: AuthorizedSession) {
