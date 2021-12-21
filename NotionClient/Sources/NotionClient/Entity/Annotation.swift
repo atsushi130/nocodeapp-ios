@@ -7,11 +7,13 @@
 
 import Foundation
 
-public struct Annotation: Decodable {
-    let bold: Bool
-    let italic: Bool
-    let strikethrough: Bool
-    let underline: Bool
-    let code: Bool
-    let color: String
+public extension Notion {
+    struct Annotation: Entity {
+        let bold: Bool
+        let italic: Bool
+        let strikethrough: Bool
+        let underline: Bool
+        let code: Bool
+        let color: String
+    }
 }

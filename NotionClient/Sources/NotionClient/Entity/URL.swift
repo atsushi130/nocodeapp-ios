@@ -7,8 +7,10 @@
 
 import Foundation
 
-public struct URL: TableData {
-    public let id: String?
-    public let type: String
-    public let url: Foundation.URL
+public extension Notion {
+    struct URL: TableData {
+        public let id: String?
+        public let type: String
+        public let url: Foundation.URL
+    }
 }

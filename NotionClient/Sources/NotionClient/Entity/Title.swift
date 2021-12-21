@@ -7,12 +7,14 @@
 
 import Foundation
 
-public struct Title: TableData {
-    public let id: String?
-    public let type: String
-    private let title: [TextData]
+public extension Notion {
+    struct Title: TableData {
+        public let id: String?
+        public let type: String
+        private let title: [TextData]
 
-    public var plainText: String? {
-        return self.title.first?.plainText
+        public var plainText: String? {
+            return self.title.first?.plainText
+        }
     }
 }

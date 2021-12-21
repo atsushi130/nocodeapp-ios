@@ -7,14 +7,16 @@
 
 import Foundation
 
-public struct Number: TableData {
-    public let id: String?
-    public let type: String
-    public let value: Int
+public extension Notion {
+    struct Number: TableData {
+        public let id: String?
+        public let type: String
+        public let value: Int
 
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case type
-        case value = "number"
+        private enum CodingKeys: String, CodingKey {
+            case id
+            case type
+            case value = "number"
+        }
     }
 }

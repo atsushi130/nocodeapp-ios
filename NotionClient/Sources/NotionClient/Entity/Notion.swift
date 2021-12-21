@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public enum Notion {}
+
+public extension Notion {
+    typealias Entity = Decodable & Equatable
+}

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol TableData: Decodable {
+public protocol TableData: Notion.Entity {
     var id: String? { get }
     var type: String { get }
 }
